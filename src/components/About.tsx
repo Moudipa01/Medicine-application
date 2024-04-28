@@ -24,7 +24,7 @@ export const About = () => {
                                 Project
                             </h2>
                             <p className="text-xl text-muted-foreground mt-4">
-                                ABout us section ##
+                            Difficulty in finding alternatives? Not sure about the substitute drug? Come, Join Us!!! We provide you the best alternatives of all the medicines, which you really need. Because your health matter to us...
                             </p>
                         </div>
                     </div>
