@@ -21,7 +21,7 @@ export const About = () => {
                                 <span className="bg-gradient-to-b from-primary/60 to-primary text-transparent bg-clip-text">
                                     About{" "}
                                 </span>
-                                Company
+                                Project
                             </h2>
                             <p className="text-xl text-muted-foreground mt-4">
                                 ABout us section ##

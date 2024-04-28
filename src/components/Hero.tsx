@@ -31,7 +31,6 @@ export const Hero = () => {
           </Link>
         </div>
       </div>
-      {/* Shadow effect */}
       <div className="shadow"></div>
     </section>
   );

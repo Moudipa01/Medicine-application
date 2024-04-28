@@ -10,27 +10,27 @@ interface FeatureProps {
 const features: FeatureProps[] = [
   {
     icon: <MedalIcon />,
-    title: "Clear Composition Insights:",
+    title: "User Query",
     description:
-      "We prioritize transparency by offering detailed insights into the compositions of alternative medications. Users can easily compare active ingredients, dosage strengths, and additional components, empowering them to make informed decisions based on their specific health needs and preferences.",
+      "When someone looks up a medication name on the website, the system starts working behind the scenes.⁠It's like asking the website to find other medicines that are kind of like the one they typed in.⁠The system then starts comparing the medication the user searched for with all the others it knows about.",
   },
   {
     icon: <MapIcon />,
-    title: "Comprehensive Equivalency Mapping",
+    title: "Finding Similar Medicines",
     description:
-      "Our web application provides a comprehensive database of medication equivalencies, bridging the gap between brand names and generic alternatives. Users can effortlessly search for their preferred brand and instantly discover equivalent medications, ensuring they never face uncertainty at the pharmacy counter.",
+      "⁠Imagine the system looking at each medicine and checking what it's made of and what it's used for.⁠Based on this information, it decides which medicines are like the one the user searched for.⁠So, if someone searched for 'Aspirin,'it might also show them other pain relievers with similar ingredients.",
   },
   {
     icon: <PlaneIcon />,
-    title: "Personalized Recommendations:",
+    title: "Sorting and Selecting",
     description:
-      "Through intelligent algorithms, our platform offers personalized medication recommendations based on user input and preferences. Whether users seek cost-effective alternatives or specific formulations, our system tailors suggestions to match individual requirements, enhancing user satisfaction and adherence. ",
+      "Once the system has a bunch of medicines that are kind of similar, it wants to show the most similar ones first.⁠It's like sorting a list from most like least similar, so the user sees the closest matches at the top.After sorting, the system picks out a few of the closest matches, maybe the top 5 or 10, to show to the user.",
   },
   {
     icon: <GiftIcon />,
-    title: "Personalized Recommendations:",
+    title: "Showing Results",
     description:
-      "Our user-friendly interface ensures a seamless and intuitive experience for consumers of all backgrounds. With interactive features such as visual representations of medication compositions and user-friendly search functionalities, navigating the complex landscape of medication substitutions becomes effortless and empowering.",
+      "Finally, the website presents these similar medicines to the user in a neat list. ⁠Each medicine on the list comes with some basic info, like its name, what type of medicine it is, and how similar it is to the one they searched for.⁠This way, the user can quickly see which medicines might be close enough to what they're looking for.",
   },
 ];
 
